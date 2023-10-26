@@ -5,21 +5,6 @@ from io import BytesIO
 # Basic structure and layout
 st.markdown("""
 <style>
-    .st-emotion-cache-1cypcdb{
-        width: 200px !important;
-        background-color: white !important;
-        border-right: 1px solid #637567
-    }
-    .st-emotion-cache-ffhzg2{
-        background-color: white !important;
-        color: black !important;
-    }
-    h3{
-        color:black !important
-    }
-    h4{
-        color:black !important
-    }
     .st-emotion-cache-12w0qpk{
         display: flex;
         flex-direction: column;
@@ -27,17 +12,6 @@ st.markdown("""
         border-radius: 0.5rem;
         padding: 1rem;
         border:1px solid #A4A4A4;
-        color:black
-    }
-    .st-bx {
-        background-color:white !important;
-        color:black !important;
-    }
-    .st-bs {
-        color:black !important;
-    }
-    .st-br {
-        color:#BCB1B1 !important;
     }
     .st-emotion-cache-1n76uvr{
         width:1136px !important
