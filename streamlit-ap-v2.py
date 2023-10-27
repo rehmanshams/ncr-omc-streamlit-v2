@@ -20,18 +20,7 @@ col2.selectbox('', ['All Projects Managers', 'Option 2', 'Option 3'])
 col3.selectbox('', ['All Religions', 'Option 2', 'Option 3'])
 
 # Dashboard Links on the LeftD
-# Replace with the actual image link
-# image_link = "https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20117.png"
 st.sidebar.image('https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20117.png',width=90)
-# Display the image using its link
-# st.sidebar({image_link})
-# html_string = f"""
-# <div style=" display: flex; justify-content: center; margin-bottom:50px">
-# <img src="" width="90px" />
-# </div>
-# """
-# Display the centered image in the sidebar using markdown
-# markdown(html_string, unsafe_allow_html=True)
 
 # Sidebar Svg One
 svg_icon_Dashboard = """
