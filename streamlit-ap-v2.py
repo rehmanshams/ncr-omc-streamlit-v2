@@ -75,10 +75,10 @@ svg_icon_ProjectStatus = """
 </svg>
 """
 # # Display the SVG next to the text in the sidebar
-st.sidebar.markdown(f'{svg_icon_Dashboard} Dashboard', unsafe_allow_html=True)
-st.sidebar.markdown(f'{svg_icon_Projects} Projects', unsafe_allow_html=True)
-st.sidebar.markdown(f'{svg_icon} User', unsafe_allow_html=True)
-st.sidebar.markdown(f'{svg_icon_ProjectStatus} Projects Status', unsafe_allow_html=True)
+st.sidebar.write("Dashboard")
+st.sidebar.write("Projects")
+st.sidebar.write("User")
+st.sidebar.write("Projects Status")
 
 # Main Content``
 st.subheader("Projects")
