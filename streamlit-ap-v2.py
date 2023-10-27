@@ -5,19 +5,9 @@ from io import BytesIO
 st.markdown("""
 <style>
     .st-emotion-cache-12w0qpk{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
         border-radius: 0.5rem;
         padding: 1rem;
         border:1px solid #A4A4A4;
-    }
-    .st-emotion-cache-1n76uvr{
-        width:1136px !important
-    }
-    .st-emotion-cache-1y4p8pa > div {
-        width:100% !important;
-        align-items:center
     }
 </style>
 """, unsafe_allow_html=True)
@@ -31,16 +21,17 @@ col3.selectbox('', ['All Religions', 'Option 2', 'Option 3'])
 
 # Dashboard Links on the LeftD
 # Replace with the actual image link
-image_link = "https://tuk-cdn.s3.amazonaws.com/can-uploader/adwdawd.png"
-
+# image_link = "https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20117.png"
+st.sidebar.image('https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20117.png',width=90)
 # Display the image using its link
-html_string = f"""
-<div style=" display: flex; justify-content: center; margin-bottom:50px">
-<img src="{image_link}" width="90px" />
-</div>
-"""
+# st.sidebar({image_link})
+# html_string = f"""
+# <div style=" display: flex; justify-content: center; margin-bottom:50px">
+# <img src="" width="90px" />
+# </div>
+# """
 # Display the centered image in the sidebar using markdown
-st.sidebar.markdown(html_string, unsafe_allow_html=True)
+# markdown(html_string, unsafe_allow_html=True)
 
 # Sidebar Svg One
 svg_icon_Dashboard = """
