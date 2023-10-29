@@ -19,15 +19,7 @@ col1.write("#### NCR Onboarding Management Console")
 col2.selectbox('', ['All Projects Managers', 'Option 2', 'Option 3'])
 col3.selectbox('', ['All Religions', 'Option 2', 'Option 3'])
 
-# Dashboard Links on the LeftD
-st.sidebar.image(
-    'https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20117.png', width=90)
 
-# # Display the SVG next to the text in the sidebar
-st.sidebar.write("Dashboard")
-st.sidebar.write("Projects")
-st.sidebar.write("User")
-st.sidebar.write("Projects Status")
 
 # Main Content``
 metrics_data = [
